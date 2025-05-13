@@ -1,0 +1,9 @@
+{
+  "name": "bizink/foto",
+  "keywords": ["wordpress", "theme"],
+  "homepage": "bizinkonline.com",
+  "type": "wordpress-theme",
+  "require": {
+    "composer/installers": "v1.0.7"
+  }
+}
