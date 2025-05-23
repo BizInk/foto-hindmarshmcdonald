@@ -1,8 +1,5 @@
 <?php
-add_action( 'acf/include_fields', function() {
-	if ( ! function_exists( 'acf_add_local_field_group' ) ) {
-		return;
-	}
+if( function_exists('acf_add_local_field_group') ):
 
 	acf_add_local_field_group( array(
 	'key' => 'group_67cff310edc30',
@@ -182,5 +179,6 @@ add_action( 'acf/include_fields', function() {
 	'active' => false,
 	'description' => '',
 	'show_in_rest' => 0,
-) );
-} );
+));
+
+endif;
