@@ -32,3 +32,6 @@ header_hero();
 
 // Services
 require('fields/services.php');
+
+// Logos
+require('fields/logos.php');

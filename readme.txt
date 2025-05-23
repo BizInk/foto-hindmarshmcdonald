@@ -1,9 +1,9 @@
-=== Foto ===
+=== Foto - Hindmarsh McDonald ===
 Contributors: Bizink,Jayden Major
 Tags: Bizink, Foto, LUCA 1
 Requires at least: 5.6
-Tested up to: 6.8
-Stable tag: 1.2.7
+Tested up to: 6.8.1
+Stable tag: 1.1
 Requires PHP: 7.4
 
 The Foto theme from Bizink is a modern, responsive theme for WordPress. Build on the LUCA 1 framework.
@@ -21,34 +21,11 @@ Prerequisites - Must have the LUCA 1 framework installed.
 
 == Changelog ==
 
-
-= 1.2.6 =
-* Twitter Icon Header Style Fix
-
-= 1.2.5 =
-* Twitter Icon Header Style
-
-= 1.2.4 =
-* Twitter Icon Style
-
-= 1.2.3 =
-* Updating Updater
-
-= 1.2.2 =
-* X Icon Update
-
-= 1.2.1 =
-* Twitter to X Icon
-
-= 1.2 =
-* Updated Updater
-* Footer Newsletter Fix
-
 = 1.1 =
-* Threads social media links added to the site
-* Added theme update checker
+* Second Logos Section
 
 = 1.0 =
+* Forked Foto 1.2.6
 * First release
 
 == Credits ==

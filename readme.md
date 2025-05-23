@@ -7,12 +7,3 @@ Prerequisites - Must have the LUCA 1 framework installed.
 1. In your admin panel, go to Appearance -> Themes and click the 'Add New' button.
 2. Upload the zip file of the theme and click 'Install Now'.
 3. Click the 'Activate' button to use your new theme right away.
-
-## Changelog
-
-### 1.1
-- Threads social media links added to the site
-- Added theme update checker
-
-### 1.0
-- First release

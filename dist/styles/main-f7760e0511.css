@@ -11347,3 +11347,40 @@ body#tinymce {
     width: 50%;
   }
 }
+
+.d-flex {
+  display: flex;
+}
+.d-flex.justify-content-center {
+  justify-content: center;
+}
+.d-flex.justify-content-between {
+  justify-content: space-between;
+}
+.d-flex.justify-content-end {
+  justify-content: flex-end;
+}
+.d-flex.justify-content-start {
+  justify-content: flex-start;
+}
+.d-flex.justify-content-around {
+  justify-content: space-around;
+}
+.d-flex.justify-content-evenly {
+  justify-content: space-evenly;
+}
+.d-flex.align-items-center {
+  align-items: center;
+}
+.d-flex.align-items-start {
+  align-items: flex-start;
+}
+.d-flex.align-items-end {
+  align-items: flex-end;
+}
+.d-flex.align-items-baseline {
+  align-items: baseline;
+}
+.d-flex.align-items-stretch {
+  align-items: stretch;
+}
