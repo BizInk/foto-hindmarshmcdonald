@@ -1,5 +1,11 @@
 <?php namespace Luca\Theme;
 
+// Services
+require('fields/services.php');
+
+// Logos
+require('fields/logos.php');
+
 // Add fields to Luca's existing field groups
 function footer_title_field($field_group) {
   $field_group['fields'] = array_merge($field_group['fields'], require('fields/settings-footer-title.php'));
@@ -30,8 +36,3 @@ function header_hero() {
 }
 header_hero();
 
-// Services
-require('fields/services.php');
-
-// Logos
-require('fields/logos.php');
