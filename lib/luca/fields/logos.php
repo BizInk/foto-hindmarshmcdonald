@@ -2,11 +2,11 @@
 if( function_exists('acf_add_local_field_group') ):
 
 	acf_add_local_field_group( array(
-	'key' => 'group_67cff310adc30',
-	'title' => 'Content Block - Agency Logos',
+	'key' => 'group_67cff310edc30',
+	'title' => 'Tax Agency Section',
 	'fields' => array(
 		array(
-			'key' => 'field_67cff312639c7',
+			'key' => 'field_67cff311639c7',
 			'label' => 'Title',
 			'name' => 'tax_agency_section_title',
 			'aria-label' => '',
@@ -27,7 +27,7 @@ if( function_exists('acf_add_local_field_group') ):
 			'append' => '',
 		),
 		array(
-			'key' => 'field_67cfa329639c8',
+			'key' => 'field_67cff329639c8',
 			'label' => 'Content',
 			'name' => 'tax_agency_section_content',
 			'aria-label' => '',
@@ -48,7 +48,7 @@ if( function_exists('acf_add_local_field_group') ):
 			'delay' => 0,
 		),
 		array(
-			'key' => 'field_67cff443f4bff',
+			'key' => 'field_67cff343f4bff',
 			'label' => 'Trust Signals',
 			'name' => 'tax_agency_section_trust_signals',
 			'aria-label' => '',
@@ -70,7 +70,7 @@ if( function_exists('acf_add_local_field_group') ):
 			'rows_per_page' => 20,
 			'sub_fields' => array(
 				array(
-					'key' => 'field_67dff372f4c02',
+					'key' => 'field_67cff372f4c02',
 					'label' => 'Icon',
 					'name' => 'signal_icon',
 					'aria-label' => '',
@@ -94,10 +94,10 @@ if( function_exists('acf_add_local_field_group') ):
 					'mime_types' => '',
 					'allow_in_bindings' => 0,
 					'preview_size' => 'medium',
-					'parent_repeater' => 'field_67cff443f4bff',
+					'parent_repeater' => 'field_67cff343f4bff',
 				),
 				array(
-					'key' => 'field_67cff452f4c00',
+					'key' => 'field_67cff352f4c00',
 					'label' => 'Title',
 					'name' => 'signal_title',
 					'aria-label' => '',
@@ -116,10 +116,10 @@ if( function_exists('acf_add_local_field_group') ):
 					'placeholder' => '',
 					'prepend' => '',
 					'append' => '',
-					'parent_repeater' => 'field_67cff443f4bff',
+					'parent_repeater' => 'field_67cff343f4bff',
 				),
 				array(
-					'key' => 'field_68cff360f4c01',
+					'key' => 'field_67cff360f4c01',
 					'label' => 'Description',
 					'name' => 'signal_description',
 					'aria-label' => '',
@@ -138,10 +138,10 @@ if( function_exists('acf_add_local_field_group') ):
 					'toolbar' => 'full',
 					'media_upload' => 1,
 					'delay' => 0,
-					'parent_repeater' => 'field_67cff443f4bff',
+					'parent_repeater' => 'field_67cff343f4bff',
 				),
 				array(
-					'key' => 'field_67da869bfa117',
+					'key' => 'field_67da969bfa117',
 					'label' => 'Button',
 					'name' => 'signal_button',
 					'aria-label' => '',
@@ -156,7 +156,7 @@ if( function_exists('acf_add_local_field_group') ):
 					),
 					'return_format' => 'array',
 					'allow_in_bindings' => 0,
-					'parent_repeater' => 'field_67cff443f4bff',
+					'parent_repeater' => 'field_67cff343f4bff',
 				),
 			),
 		),
