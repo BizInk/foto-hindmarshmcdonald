@@ -6,8 +6,6 @@
 
 <?php 
 
-luca()->getModule('banners')->renderBlock('front-banner0', 'default', ['wrapper' => 'section section-frontBanner0']);
-
 $partnerLogos = get_field('partner_logos_logos');
 $partnerLogoTitle = get_field('partner_logos_title');
 $partnerLogoDescription = get_field('partner_logos_description');
@@ -53,6 +51,8 @@ if( !empty($partnerLogos) ):
 <!-- section section-agencylogos -->
 <?php
 endif;
+
+luca()->getModule('banners')->renderBlock('front-banner0', 'default', ['wrapper' => 'section section-frontBanner0']);
 
 luca()->getModule('banners')->renderBlock('front-banner', 'default', ['wrapper' => 'section section-frontBanner', 'isFirst' => true]); 
 
