@@ -3,7 +3,7 @@ Contributors: Bizink,Jayden Major
 Tags: Bizink, Foto, LUCA 1
 Requires at least: 5.6
 Tested up to: 6.8.1
-Stable tag: 1.1.3
+Stable tag: 1.1.4
 Requires PHP: 7.4
 
 The Foto theme from Bizink is a modern, responsive theme for WordPress. Build on the LUCA 1 framework.
@@ -20,6 +20,9 @@ Prerequisites - Must have the LUCA 1 framework installed.
 == Frequently Asked Questions ==
 
 == Changelog ==
+
+= 1.1.4 =
+* Move Logos Section
 
 = 1.1.3 =
 * Second Logos Section Fixes

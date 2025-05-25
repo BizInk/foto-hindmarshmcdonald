@@ -6,14 +6,7 @@
 
 <?php 
 
-luca()->getModule('banners')->renderBlock('front-banner0', 'default', ['wrapper' => 'section section-frontBanner0']); 
-
-luca()->getModule('banners')->renderBlock('front-banner', 'default', ['wrapper' => 'section section-frontBanner', 'isFirst' => true]); 
-
-luca()->getModule('columns')->renderBlock('front-columns', 'default', ['wrapper' => 'section section-frontColumns', 'container' => true]); 
-
-luca()->getModule('banners')->renderBlock('front-banner2', 'default', ['wrapper' => 'section section-frontBanner2']);
-
+luca()->getModule('banners')->renderBlock('front-banner0', 'default', ['wrapper' => 'section section-frontBanner0']);
 
 $partnerLogos = get_field('partner_logos_logos');
 $partnerLogoTitle = get_field('partner_logos_title');
@@ -60,6 +53,13 @@ if( !empty($partnerLogos) ):
 <!-- section section-agencylogos -->
 <?php
 endif;
+
+luca()->getModule('banners')->renderBlock('front-banner', 'default', ['wrapper' => 'section section-frontBanner', 'isFirst' => true]); 
+
+luca()->getModule('columns')->renderBlock('front-columns', 'default', ['wrapper' => 'section section-frontColumns', 'container' => true]); 
+
+luca()->getModule('banners')->renderBlock('front-banner2', 'default', ['wrapper' => 'section section-frontBanner2']);
+
 
 luca()->getModule('logos')->renderBlock('front-logos', 'default', ['wrapper' => 'section section-frontLogos', 'container' => true]);
 
